@@ -1,1 +1,1 @@
-# CSS and HTML Lab
+# Multi-page site CSS and HTML Lab
