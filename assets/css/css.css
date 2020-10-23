@@ -98,6 +98,7 @@
     border: none;
     color: #FFFFFF;
     background-color: #FF0000;
+    cursor: pointer;
 }
 
 #header-nav #header-nav-ul-right {
