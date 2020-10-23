@@ -11,14 +11,24 @@
     }
 }
 
+#main {
+    animation: main-animation 15s;
+}
+
+@keyframes main-animation {
+    0% {
+        background-color: #000000;
+    }
+    100% {
+        background-color: #FFFFFF;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
     font-size: 12px;
-}
-
-#header, #main, #footer {
 }
 
 #header {
@@ -169,4 +179,32 @@
 #header-nav .header-nav-ul li a.active {
     color: rgba(255, 255, 255, 0.8);
     text-decoration: underline;
+}
+
+#main {
+    width: 80vw;
+    margin: 16px auto;
+    padding: 16px;
+    border-bottom: 1px solid #808080;
+    box-shadow: 2px 2px 4px #000000;
+}
+
+#main-title {
+    margin: 0;
+    padding: 8px;
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+#main-content {
+    margin: 16px 0 0 0;
+    padding: 8px;
+}
+
+#main-content p {
+    margin: 0px;
+    padding: 8px;
+    font-size: 1.2em;
+    text-align: justify;
 }
