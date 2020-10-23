@@ -1,42 +1,3 @@
-#header {
-    animation: header-animation 15s;
-}
-
-@keyframes header-animation {
-    0% {
-        background-color: #FF0000;
-    }
-    100% {
-        background-color: #000000;
-    }
-}
-
-#main {
-    animation: main-animation 15s;
-}
-
-@keyframes main-animation {
-    0% {
-        background-color: #000000;
-    }
-    100% {
-        background-color: #FFFFFF;
-    }
-}
-
-#footer {
-    animation: footer-animation 15s;
-}
-
-@keyframes footer-animation {
-    0% {
-        background-color: #FFFFFF;
-    }
-    100% {
-        background-color: #000000;
-    }
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -218,7 +179,7 @@
 
 #main-content p {
     margin: 0px;
-    padding: 8px;
+    padding: 8px 0;
     font-size: 1.2em;
     text-align: justify;
 }
@@ -275,4 +236,43 @@
 #footer-nav #footer-nav-ul-left li a.active, #footer-nav #footer-nav-ul-right li a.active {
     color: rgba(255, 255, 255, 0.8);
     text-decoration: underline;
+}
+
+#header {
+    animation: header-animation 10s;
+}
+
+@keyframes header-animation {
+    0% {
+        background-color: #FF0000;
+    }
+    100% {
+        background-color: #000000;
+    }
+}
+
+#main {
+    animation: main-animation 10s;
+}
+
+@keyframes main-animation0 {
+    0% {
+        background-color: #000000;
+    }
+    100% {
+        background-color: #FFFFFF;
+    }
+}
+
+#footer {
+    animation: footer-animation 10s;
+}
+
+@keyframes footer-animation {
+    0% {
+        background-color: #FFFFFF;
+    }
+    100% {
+        background-color: #000000;
+    }
 }
